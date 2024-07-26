@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music and etc</title>
+  </head>
+  <body>
+    <audio src="nicowhip.mp3" controls autoplay loop muted></audio>
+    <!-- 
+        controls = controls for audio
+        autoplay = autoplay at page start
+        muted = automatically mute
+        loop = loop
+    -->
+    <!-- altarnative for backups, works for images and videos too -->
+    <audio controls>
+      <source src="nicowhip.mp3" />
+      <source src="nicowhip.wav" />
+      <!-- This is for browsers that doesn't support HTML5 audio -->
+      Sorry, your browser doesn't support HTML5 audio
+    </audio>
+  </body>
+</html>
